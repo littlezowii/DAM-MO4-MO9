@@ -1,110 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recopilatorio de trabajos</title>
-  <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio DAM01 - Java Script</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Recopilatorio de trabajos</h1>
-      <p>Proyectos y ejercicios realizados en clase.</p>
-    </div>
-  </header>
 
-  <main class="site-main">
-    <div class="container">
-      <section class="cards-grid">
+    <header class="header">
+        <h1>Java Script</h1>
+        <p class="subtitle">M04 y M09 de DAM01 en el ITB con Alicia Vázquez.</p>
+        <p class="author">Código realizado por Pepe Garcia.</p>
+    </header>
 
-        <!-- CARD 1: ejemplo -->
-        <article class="work-card">
-          <div class="work-card__image-wrapper">
-            <img src="https://via.placeholder.com/600x350?text=Programacion" alt="Imagen del tema de programación" class="work-card__image">
-          </div>
-          <div class="work-card__body">
-            <h2 class="work-card__title">Programación - Kotlin</h2>
-            <h3 class="work-card__subtitle">Prácticas de introducción y estructuras básicas</h3>
-            <p class="work-card__description">
-              Colección de ejercicios donde se trabajan variables, condicionales, bucles y funciones en Kotlin, orientados a los primeros temas del curso.
-            </p>
-
-            <ul class="work-card__links">
-              <li><a href="https://github.com/tu-usuario/kotlin-practicas-basicas" target="_blank" rel="noopener noreferrer">Repositorio general de prácticas</a></li>
-              <li><a href="https://github.com/tu-usuario/kotlin-practicas-basicas/tree/main/tema1" target="_blank" rel="noopener noreferrer">Tema 1 - Introducción</a></li>
-              <li><a href="https://github.com/tu-usuario/kotlin-practicas-basicas/tree/main/tema2" target="_blank" rel="noopener noreferrer">Tema 2 - Condicionales</a></li>
-              <li><a href="https://github.com/tu-usuario/kotlin-practicas-basicas/tree/main/tema3" target="_blank" rel="noopener noreferrer">Tema 3 - Bucles</a></li>
-            </ul>
-
-            <div class="work-card__footer">
-              <a class="btn btn--github" href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
-                Ver perfil de GitHub
-              </a>
+    <main class="container">
+        <article class="project-card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200?text=Imagen+Proyecto+1" alt="Imagen del proyecto 1" class="card-image">
+                <span class="tag tag-m04">M04</span>
             </div>
-          </div>
+            <div class="card-body">
+                <h2>Introducción a la Programación</h2>
+                <h3>Variables y Estructuras de Control</h3>
+                <p>Este bloque cubre los fundamentos de JavaScript, incluyendo la declaración de variables, tipos de datos básicos, y las estructuras de control esenciales como `if/else` y bucles `for/while`.</p>
+                <ul class="exercise-list">
+                    <li><a href="#" target="_blank">Ejercicio 1: Calculadora Simple</a></li>
+                    <li><a href="#" target="_blank">Ejemplo: Validación de Formulario Básico</a></li>
+                    <li><a href="#" target="_blank">Apuntes de Clase: Variables</a></li>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <a href="#" target="_blank" class="footer-link primary">Apuntes de Clase</a>
+                <a href="#" target="_blank" class="footer-link secondary">Repositorio Git</a>
+            </div>
         </article>
 
-        <!-- CARD 2: ejemplo -->
-        <article class="work-card">
-          <div class="work-card__image-wrapper">
-            <img src="https://via.placeholder.com/600x350?text=Bases+de+Datos" alt="Imagen del tema de bases de datos" class="work-card__image">
-          </div>
-          <div class="work-card__body">
-            <h2 class="work-card__title">Bases de datos - SQL</h2>
-            <h3 class="work-card__subtitle">Modelado, consultas y joins</h3>
-            <p class="work-card__description">
-              Trabajos de creación de esquemas, inserción de datos y consultas SQL, incluyendo filtros, agrupaciones y diferentes tipos de JOIN.
-            </p>
-
-            <ul class="work-card__links">
-              <li><a href="https://github.com/tu-usuario/sql-ejercicios" target="_blank" rel="noopener noreferrer">Repositorio de ejercicios SQL</a></li>
-              <li><a href="https://github.com/tu-usuario/sql-ejercicios/tree/main/consultas-basicas" target="_blank" rel="noopener noreferrer">Consultas básicas</a></li>
-              <li><a href="https://github.com/tu-usuario/sql-ejercicios/tree/main/joins" target="_blank" rel="noopener noreferrer">Ejercicios de JOIN</a></li>
-            </ul>
-
-            <div class="work-card__footer">
-              <a class="btn btn--github" href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
-                Ver perfil de GitHub
-              </a>
+        <article class="project-card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200?text=Imagen+Proyecto+2" alt="Imagen del proyecto 2" class="card-image">
+                <span class="tag tag-m09">M09</span>
             </div>
-          </div>
-        </article>
-
-        <!-- CARD 3: puedes duplicar y adaptar -->
-        <article class="work-card">
-          <div class="work-card__image-wrapper">
-            <img src="https://via.placeholder.com/600x350?text=LM+HTML+CSS" alt="Imagen del tema de lenguajes de marcas" class="work-card__image">
-          </div>
-          <div class="work-card__body">
-            <h2 class="work-card__title">Lenguajes de marcas</h2>
-            <h3 class="work-card__subtitle">Páginas web con HTML y CSS</h3>
-            <p class="work-card__description">
-              Prácticas de maquetación web donde se trabaja estructura semántica, estilos básicos, flexbox y creación de pequeñas páginas estáticas.
-            </p>
-
-            <ul class="work-card__links">
-              <li><a href="https://github.com/tu-usuario/html-css-practicas" target="_blank" rel="noopener noreferrer">Repositorio de prácticas HTML/CSS</a></li>
-              <li><a href="https://github.com/tu-usuario/html-css-practicas/tree/main/landing-page" target="_blank" rel="noopener noreferrer">Landing page</a></li>
-              <li><a href="https://github.com/tu-usuario/html-css-practicas/tree/main/formularios" target="_blank" rel="noopener noreferrer">Formularios</a></li>
-            </ul>
-
-            <div class="work-card__footer">
-              <a class="btn btn--github" href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
-                Ver perfil de GitHub
-              </a>
+            <div class="card-body">
+                <h2>Manipulación del DOM</h2>
+                <h3>Eventos y Modificación de Elementos</h3>
+                <p>Centrado en cómo JavaScript interactúa con el Document Object Model (DOM). Se aborda la selección de elementos, la gestión de eventos (clicks, submit, etc.) y la modificación dinámica de la estructura HTML y CSS.</p>
+                <ul class="exercise-list">
+                    <li><a href="#" target="_blank">Ejercicio 2: Galería de Imágenes Interactiva</a></li>
+                    <li><a href="#" target="_blank">Ejemplo: To-Do List</a></li>
+                    <li><a href="#" target="_blank">Apuntes de Clase: Event Listeners</a></li>
+                </ul>
             </div>
-          </div>
+            <div class="card-footer">
+                <a href="#" target="_blank" class="footer-link primary">Apuntes de Clase</a>
+                <a href="#" target="_blank" class="footer-link secondary">Repositorio Git</a>
+            </div>
         </article>
+        
+        </main>
 
-      </section>
-    </div>
-  </main>
+    <footer class="footer">
+        <p>Contacto del Programador: <a href="mailto:tu.email@example.com">Pepe Garcia (tu.email@example.com)</a></p>
+        <p class="cc">© 2025 Pepe Garcia. Todos los derechos reservados.</p>
+    </footer>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>Portafolio de trabajos de clase · Actualiza enlaces y tarjetas según vayas avanzando.</p>
-    </div>
-  </footer>
 </body>
 </html>
